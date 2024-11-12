@@ -20,8 +20,8 @@ class ProfileFactory extends Factory
             'name' => fake()->name(),
             'email' => fake()->email(),
             'birthdate' => fake()->date(),
-            'home address' => fake()->address(),
-            'contact number' => fake()->phoneNumber()
+            'home_address' => fake()->address(),
+            'contact_number' => fake()->phoneNumber()
         ];
     }
 }
